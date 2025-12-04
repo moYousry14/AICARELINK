@@ -4,7 +4,6 @@ import folium
 from streamlit_folium import st_folium
 
 def apply_styling():
-    st.set_page_config(layout="wide", page_title="Aicarelink National Grid", page_icon="🌐")
     st.markdown("""
     <style>
         .stApp { background-color: #000000; color: #ffffff; font-family: 'Segoe UI', sans-serif; }
@@ -32,7 +31,7 @@ def render_header():
         except: st.markdown("# ⚕️")
     with c2: 
         st.markdown('<div class="app-title">Aicarelink National Grid</div>', unsafe_allow_html=True)
-        st.caption("AI-Powered Emergency Triage & Cross-Governorate Referral System v6.0")
+        st.caption("AI-Powered Emergency Triage & Cross-Governorate Referral System v1.0.0")
 
 def render_status_badge(pred_label):
     if pred_label == 'MI': status_html = '<div class="crit">🚨 CRITICAL: STEMI DETECTED</div>'
