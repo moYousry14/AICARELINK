@@ -1,0 +1,11 @@
+streamlit
+pandas
+numpy
+matplotlib
+scipy
+tensorflow-cpu
+scikit-learn
+folium
+streamlit-folium
+requests
+polyline
