@@ -8,9 +8,7 @@ from keras.models import load_model
 def load_resources():
     # Smart Loader looks in 'models' folder or root
     possible_paths = [
-        'models/PTBXL_ResNet_Final.h5', 
-        'PTBXL_ResNet_Final.h5', 
-        'PTBXL_ResNet_Best.h5'
+        'models/PTBXL_ResNet_Model.h5', 
     ]
     model = None
     for p in possible_paths:
